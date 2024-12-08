@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color:white; 
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;    
+}
+
+nav{
+    display: inline-block;
+}
+.main{
+    /* height: 600px; */
+    /* border: 3px solid black; */
+    text-align: center;
+}
+.a,
+.b,
+.c,
+.d,
+.e,
+.f,
+.g,
+.h{
+    /* height: 400px; */
+    width: 250px;
+    /* border: 3px solid red; */
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 100%;
+}
+.x{
+    margin-left: 100px;
+}
+.y{
+    margin-left: 420px;
+}
+.z{
+    margin-left: 450px;
+}
+div{
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+}
+span{
+    width: 300px;
+}
+
+/* research topics 
+1)Difference btwn auto & 100% 
+
+Auto keyward tells the browser to automatically calculate the width or height of an element based on its content and avilable spaces 
+The 100% value sets the width or height of an element to 100% of its parent container's avilable space  */
